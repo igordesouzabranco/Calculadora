@@ -1,7 +1,7 @@
 
-
+vezes = 0
  
-while True:
+while vezes < 5:
     def calc():
         n1=float(input("Digite o primeiro número: "))
         n2=float(input("Digite o segundo número: "))
@@ -10,9 +10,11 @@ while True:
         return f'{n1} X {n2} = {oi}'
     print(calc())
     parar = input("Digite N para parar, ou S para continuar: ")
+        vezes += 1
     if parar == "N":
-        break
+        vezes =+ 5
     else:
+        vezes - 1
         continue
 
     
