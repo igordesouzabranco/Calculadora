@@ -11,7 +11,7 @@ while vezes < 5:
     print(calc())
     parar = input("Digite N para parar, ou S para continuar: ")
         vezes += 1
-    if parar == "N":
+    if parar == "N" or "n":
         vezes =+ 5
     else:
         vezes - 1
